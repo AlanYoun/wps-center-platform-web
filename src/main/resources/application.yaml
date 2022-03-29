@@ -1,0 +1,16 @@
+server:
+  port: 8086
+spring:
+  profiles:
+    active: dev
+#  mvc:
+#    converters:
+#      preferred-json-mapper: jackson
+
+httpclient:
+  connect-timeout: 30000
+  connection-request-timeout: 30000
+  max-conn-per-route: 5
+  max-conn-total: 30
+  socket-timeout: 30000
+
